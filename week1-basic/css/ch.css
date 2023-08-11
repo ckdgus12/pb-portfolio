@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+#search{
+    display: flex;
+}
+.d-flex li{
+    padding: 30px;
+}
+.user-text p{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+section{
+    position: relative;
+}
+
+nav{
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.popular-list{
+    display: flex;
+}
+.popular-list li{
+    margin-left: 30px;
+}
+.activit-list{
+    display: flex;
+    position: relative;
+    margin-right: 60px;
+}
+.activit-list li{
+    margin-left: 30px;
+}
+.hotels-img{
+    display: flex;
+}
+.hotels-img li{
+    margin-left: 30px;
+}
+.d-flex{
+    display: flex;
+}
+
+.user{
+    display: flex;
+
+}
+.row{
+    display: flex;
+}
+.search-box{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 8px;
+    margin-bottom: 10vh;
+}
+.color-muted{
+    display: block;
+}
+.search-box .d-flex img {
+    margin-right: 16px;
+  }
+.d-flex img{
+ 
+}
+.title_area{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.label-size label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+    background: #F6F4FF;
+    border-radius: 12px;
+}
+.info_area{
+    display: flex;
+    justify-content: space-between;
+}
+.star_wrap{
+    margin-top: 18px;
+}
+#activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+#hotels{
+    margin-left: 100px;
+}
+.Activit{
+    margin-left: 100px;
+}
+
+
+.travel-container{
+    display: flex;
+    margin-left: 160px;
+}
+.travel-img{
+    display: flex;
+    flex-direction: column;
+}
+.travel-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.travel-text{
+    display: flex;
+}
+#activities{
+    display: flex;
+    justify-content: center;
+}
+.title3{
+    position: relative;
+    margin-bottom: 560px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: -100px;
+}
+#about{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: aliceblue;
+
+}
+.footer-row{
+    display: flex;
+    gap: 200px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col{
+    display: flex;
+}

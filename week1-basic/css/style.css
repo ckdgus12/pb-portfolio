@@ -1,0 +1,178 @@
+#main{
+  background-image: url(../img/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px 0px 64px 64px;
+  color: #FFFFFF;
+}
+
+.menu_item ul li{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.menu_item li a{
+  color: #FFFFFF;
+}
+.avatar{
+  background-image: url(../img/img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  position: relative;
+}
+
+.avatar img{
+  box-sizing: border-box;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 0px;
+  top: 0px;
+  background: #ff0000;
+  border: 1px solid #161414;
+  border-radius: 12px;
+}
+.cta p{
+width: 863px;
+height: 62px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+margin-left: 230px;
+}
+.cta img{
+  margin-left: 430px;
+}
+.row ul li{
+  font-size: 14px;
+}
+.color-muted{
+  color: #FFFFFF;
+}
+.search-box{
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 120vh;
+  padding: 8px;
+  margin-bottom: 10vh;
+}
+.search-box input{
+  border: none;
+}
+.search-box label{
+  color: darkblue;
+}
+.search-icon button{
+  border:none;
+  background-color: white;
+}
+.search-box .d-flex img{
+  margin-right: 16px;
+}
+.search-box .d-flex{
+  display: flex;
+  align-items: center;
+}
+.title{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+.title1{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-left: -140px;
+}
+p >strong{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+#popular ul li p:last-child{
+  color:#979797;
+  font-size: 14px;
+  line-height: 20px;
+}
+.info_area{
+  color: #979797;
+}
+.list_title{
+  color: #161414;
+}
+.Activit img{
+  width: 316px;
+  height: 380px;
+  border-radius: 12px;
+  
+}
+.popular-main{
+  margin-left: 100px;
+}
+.about-title1{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.about-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.about-button{
+  border-radius: 12px;
+  background: #f6f4ff;
+}
+.about-img img{
+  border-radius: 12px;
+}
+.footer-About div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.footer-Company div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.footer-Support div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.button-input{
+  border: white;
+  border-radius:12px;
+}
+.foot-content{
+  border:8px solid bisque;
+  border-radius: 12px;
+
+}

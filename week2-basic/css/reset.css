@@ -1,0 +1,801 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Homemade+Apple&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+li{list-style: none;}
+a{text-decoration: none; color: black;}
+button{border: 0; cursor: pointer;}
+
+*{
+  font-family: 'Hind Madurai', Arial, sans-serif;
+  color:#121212;
+}
+h3{
+  font-family: 'Ibarra Real Nova';
+  font-weight: 700;
+  font-size: 48px;
+}
+body{
+  padding-top: 2rem;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+body::before{
+  content: "";
+  position: absolute;
+  background-color: #CEDEA2;
+  display: block;
+  width: 990px;
+  height: 990px;
+  right: -60px;
+  top: -430px;
+  z-index: -1;
+  border-radius: 500px;
+}
+.container{
+  margin: auto;
+  min-width: 1400px;
+  max-width: 1920px;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: #FFFFFF;
+  box-shadow: 0px 18px 36px 0px #0000000D;
+  border-radius: 6px;
+}
+header h1{
+  font-family: 'Ibarra Real Nova', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-right: 6rem;
+}
+.nav{
+  margin-right: auto;
+  display: flex;
+}
+.nav li{
+  margin-right: 5rem;
+}
+.nav li a{
+  font-size: 20px;
+  color: #3E3E3E;
+}
+.nav li.on a{
+  color: #121212;
+}
+.nav + div{
+  display: flex;
+  align-items: center;
+}
+.arrow{
+  background-image: url(../../assets/images/week-2/icon/arrow_down.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 14px;
+  height: 6px;
+}
+.lang{
+  overflow: hidden;
+  /* height: 20px; */
+  margin-right: 1rem;
+}
+.cart{
+  background-image: url(../../assets/images/week-2/icon/cart.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 23px;
+  height: 24px;
+}
+
+.main{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main_text{
+  width: 38%;
+  display: inline-block;
+}
+.main_text h3{
+  font-size: 64px;
+  margin-bottom: 45px;
+}
+.main_text p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+.main img{
+  width: 55%;
+  position: relative;
+}
+.main{position: relative;}
+.main::before{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 27rem;
+  height: 27rem;
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+.main::after{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 18rem;
+  height: 18rem;
+  position: absolute;
+  top: 3rem;
+  right: -20px;
+  transform: rotate(-90deg);
+}
+.main button{
+  font-size: 20px;
+  line-height: 3;
+  width: 160px;
+  border-radius: 55px;
+  margin-right: 1rem;
+  border: solid 1px #121212;
+  background-color: transparent;
+}
+.main .shop{
+  color: white;
+  border: 0;
+  background: linear-gradient(to right, #315316, #72A748);
+}
+
+.desc_pro{
+  display: flex;
+  margin: 5rem 0;
+}
+.tables{
+  width: 50%;
+}
+.tables > div{
+  width: 260px;
+  display: inline-block;
+  border: 1px solid rgb(233, 232, 232);
+  padding: 2.5rem;
+}
+.tables h5{
+  font-family: 'Ibarra Real Nova', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #315316;
+  margin: 0 0 1rem 0;
+}
+.tables strong{
+  font-weight: 600;
+  font-size: 24px;
+  margin: 5rem 0;
+}
+.tables p{
+  font-size: 18px;
+  margin: 1rem 0 0 0;
+}
+.table_1,
+.table_3{
+  float: left;
+}
+.table_2,
+.table_4{
+  margin-left: 1rem;
+}
+.table_2{
+  margin-bottom: 1rem;
+}
+.founder{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 1rem 0;
+}
+.founder h3{
+  margin-top: 0;
+}
+.founder p{
+  font-size: 18px;
+  line-height: 1.8;
+}
+.founder .sign{
+  font-family: 'Homemade Apple';
+  font-size: 32px;
+  color: #315316;
+  margin-bottom: 0;
+}
+.founder .name{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.founder .posit{
+  font-size: 14px;
+  margin: 0;
+}
+
+.youtube{
+  margin: 10rem 0;
+  position: relative;
+}
+.yt_circle{
+  background: linear-gradient(to right, #315316, #72A748);
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+}
+.yt_circle::before{
+  content: "▲";
+  font-size: 28px;
+  color: #FFFFFF;
+  position: absolute;
+  transform: rotate(90deg);
+  top: calc(50% - 17px);
+  right: calc(50% - 17px);
+}
+.youtube img{
+  width: 100%;
+}
+
+.cosmetics{
+  margin: 5rem 0;
+}
+.cosmetics .product > div{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 2rem;
+  margin: 1rem;
+  margin-bottom: 4rem;
+  height: 28rem;
+  justify-content: flex-end;
+  border: 1px solid #EEEEEE;
+}
+.cosmetics .product > div:nth-child(1),
+.cosmetics .product > div:nth-child(5){
+  margin-left: 0;
+}
+.cosmetics .product > div:nth-child(4),
+.cosmetics .product > div:nth-child(8){
+  margin-right: 0;
+}
+
+.cosmetics .product > div:hover{
+  border: 1px solid transparent;
+  box-shadow: 0px 18px 36px 0px #00000012;
+}
+
+.cosmetics .pic{
+  border: 1px solid #EEEEEE;
+  background: linear-gradient(to bottom right, #FDFDFD, #E7E7E7);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+  height: 15rem;
+  line-height: 15rem;
+}
+.cosmetics .pic img{
+  width: 170px;
+  vertical-align: middle;
+}
+.cosmetics h3{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.cosmetics .product{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.cosmetics h6{
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  margin-top: 1rem;
+}
+.cosmetics .price{
+  font-weight: 400;
+  font-size: 20px;
+  margin: 1rem 0;
+}
+.cosmetics .desc{
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+.cosmetics .st_bt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.cosmetics .st_bt > div{
+  display: flex;
+  align-items: center;
+}
+.stars {
+  color: #aaa9a9; 
+  position: relative;
+  width: max-content;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #FFA800;
+}
+.star-ratings-fill {
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 1px;
+  left: 0;
+  overflow: hidden;
+  -webkit-text-fill-color: #FFA800;
+}
+.star-ratings-fill{
+  width: 80px;
+}
+.star-ratings-fill span{
+  margin-right: 5px;
+}
+.star-ratings-base {
+  z-index: 0;
+  padding: 0;
+}
+.star-ratings-base span{
+  margin-right: 5px;
+}
+.star-ratings-base p{
+  margin: 0;
+  font-size: 14px;
+}
+.cosmetics .st_bt button{
+  font-size: 14px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #315316, #72A748);
+  padding: .8rem 2rem;
+  border-radius: 50px;
+}
+
+.discount{
+  height: 50vh;
+  background: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+  background-image:url('../../assets/images/week-2/product/code_1.png'), url('../../assets/images/week-2/product/code_2.png');
+  background-position: 5%, 95%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.discount .content{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.discount p{
+  font-size: 18px;
+}
+.discount form{
+  position: relative;
+}
+.discount input[type="text"]{
+  position: relative;
+  margin: auto;
+  width: 70%;
+  margin-top: 4rem;
+  background-color: #FFFFFF;
+  padding: 0 1.8rem;
+  line-height: 75px;;
+  text-align: left;
+  border-radius: 50px;
+  border: 2px solid #EEEEEE;
+  color: #888888;
+}
+.discount input[type="text"]:focus{
+  outline: 1px solid transparent;
+}
+.discount input[type="submit"]{
+  position: absolute;
+  font-size: 20px;
+  width: 20%;
+  height: auto;
+  right: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  padding: 0 1.8rem;
+  line-height: 75px;;
+  border-radius: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 4rem;
+  background: linear-gradient(to right, #315316, #72A748);
+  transform: translateX(-50%);
+  border: 2px solid #EEEEEE;
+}
+
+.unity{
+  margin: 8rem 0;
+}
+.unity h3{
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.unity > div{
+  display: flex;
+  justify-content: space-between;
+}
+.unity > div > div{
+  display: flex;
+  flex-direction: column;
+}
+.unity .image_1,
+.unity .image_2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 780px;
+  height: 450px;
+}
+.unity .image_1{
+  background-image: url(../../assets/images/week-2/product/product_9.png);
+}
+.unity .image_2{
+  background-image: url(../../assets/images/week-2/product/product_10.png);
+}
+.unity h6{
+  font-family: 'Ibarra Real Nova';
+  font-size: 32px;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+.unity p{
+  width: 800px;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+.unity .checks{
+  flex-wrap: wrap;
+  display: flex;
+}
+.unity .checks span{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin: .5rem 0;
+  font-size: 18px;
+}
+.unity .checks .check{
+  background-image: url(../../assets/images/week-2/icon/check.png);
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: .5rem;
+}
+.unity button{
+  width: 20%;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  font-size: 20px;
+  background: linear-gradient(to right, #315316, #72A748);
+}
+
+.review{
+  margin: 8rem 0;
+}
+.review h3{
+  text-align: center;
+  position: relative;
+}
+.review .pic{
+  background-color: #EDC988;
+  background-image: url(../../assets/images/week-2/about.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  display: block;
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: -55px;
+}
+.review_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  margin-top: 4rem;
+  width: 50%;
+  padding: 4rem;
+  box-shadow: 0px 18px 36px 0px #00000012;
+  border: 1px solid #EDEDED;
+}
+.review h3::before{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  transform: scaleY(-1) rotate(-38deg);
+  top: -6rem;
+  left: 4rem;
+}
+.review h3::after{
+  content: "";
+  background-image: url(../../assets/images/week-2/leaf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  transform: scaleY(-1) rotate(-31deg);
+  top: 8rem;
+  right: 5.5rem;
+  z-index: 10;
+}
+.review_cont .mention{
+  width: 70%;
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.8;
+  z-index: 10;
+}
+.review_cont .name{
+  font-size: 20px;
+}
+.review_cont p{
+  font-size: 14px;
+  margin: 0.2rem;
+}
+.review .pagination{
+  margin: auto;
+  margin-top: 3rem;
+}
+.swiper-pagination{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.swiper-pagination-bullet{
+  position: relative;
+  border: 1px solid #C4C4C4;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  margin: 0 .3rem;
+}
+.swiper-pagination-bullet-active::before{
+  content: "";
+  background: linear-gradient(to right, #315316, #72A748);
+  background-position: center center;
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 2px;
+  display: block;
+  position: absolute;
+}
+
+.brand{
+  background-color: #CEDEA2;
+}
+.brand .slides{
+  overflow: hidden;
+}
+.brand .image-box{
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  width: 4166px;
+  animation: bannermove 25s linear infinite;
+}
+.brand .slide{
+  margin: 3.5rem;
+}
+.brand .slide img{
+  height: 45px;
+}
+@keyframes bannermove {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-50%, 0);
+  }
+}
+
+
+.ft{
+  background-color: #315316;
+  height: 50vh;
+}
+.ft .container{
+  display: flex;
+  justify-content: space-between;
+}
+.ft .ft_1{
+  display: flex;
+  flex-direction: column;
+}
+.ft h5{
+  font-family: 'Ibarra Real Nova';
+  font-size: 32px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: 6rem;
+  margin-bottom: .5rem;
+}
+.ft a,
+.ft p{
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 1rem 0;
+}
+.ft_1 p:nth-child(4){
+  margin-bottom: 2rem;
+}
+.ft li ul{
+  padding: 0;
+}
+.ft li ul li{
+  margin: 2rem 0;
+}
+.ft li ul li:nth-child(1){
+  margin: 24px 0;
+}
+.ft .lang{
+  display: flex;
+  align-items: baseline;
+}
+.ft .lang i{
+  background-image: url(../../assets/images/week-2/icon/arrow_white.png);
+  height: 10px;
+}
+.ft .lang > div{
+  margin-left: .7rem;
+  overflow: hidden;
+  height: 30px;
+}
+.ft .lang.show > div{
+  height: 100px;
+}
+.ft .lang.show .arrow{
+  transform: rotate(180deg);
+}
+.lang p{
+  margin: 0;
+}
+.sns{
+  display: flex;
+}
+.sns span{
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  display: block;
+}
+.sns .facebook,
+.sns .tweet,
+.sns .tube,
+.sns .insta{
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: center center;
+}
+.sns .facebook{
+  background-image: url(../../assets/images/week-2/icon/facebook.png);
+  background-size: 18%;
+}
+.sns .tweet{
+  background-image: url(../../assets/images/week-2/icon/tweet.png);
+}
+.sns .tube{
+  background-image: url(../../assets/images/week-2/icon/youtube.png);
+}
+.sns .insta{
+  background-image: url(../../assets/images/week-2/icon/insta.png);
+}
+
+footer{
+  background-color: #121212;
+}
+footer p{
+  margin: 0;
+  font-size: 14px;
+  line-height: 8rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media(min-width: 1600px){
+  .container{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .main::before{
+    left: 570px;
+  }
+}
+
+@media(max-width: 1440px){
+  body{
+    overflow-x: unset;
+  }
+}
+
+/* swiper */
+.swiper{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  display: block;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+  box-sizing: content-box;
+}
+.swiper-slide{
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+
+/* animation */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: .6s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
