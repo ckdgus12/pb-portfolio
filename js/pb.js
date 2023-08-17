@@ -80,7 +80,6 @@ const Snow = {
   },
 };
 
-Snow.init();
 
 window.onresize = () => {
   Snow.canvasWidth = $canvas.clientWidth;
