@@ -80,6 +80,7 @@ const Snow = {
   },
 };
 
+Snow.init();
 
 window.onresize = () => {
   Snow.canvasWidth = $canvas.clientWidth;
@@ -87,6 +88,10 @@ window.onresize = () => {
 
   Snow.make();
 };
+
+
+
+
 
 // swiper
 var swiper = new Swiper(".mySwiper", {
