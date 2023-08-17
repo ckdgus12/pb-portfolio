@@ -11,8 +11,6 @@
 body{
   height: 100%;
   background-size: cover;
-  opacity: 2;
-
 }
 
 
@@ -23,7 +21,7 @@ body{
 }
 .container section{
   padding: 0 200px;
-  z-index: 9999;
+  z-index:9999;
 }
 
 
@@ -240,7 +238,7 @@ h2 .show{
 }
 .portfolio
 .por_1dep:nth-child(5) .port_img{
-  background-image: url(./imgs/2rism.png);
+  background-image: url(../imgs/2rism.png);
 }
 .port_img{
   width: 100%;
@@ -330,6 +328,8 @@ h2 .show{
 }
 .study h2{
   padding: 0 200px;
+  color: black;
+  font-size: 4rem;
 }
 .study .show + .mySwiper .swiper-slide{
   animation: showAnime 1s forwards .3s;
@@ -384,7 +384,7 @@ h2 .show{
   display: flex;
 }
 .notionItem .label{
-  background-color: #191919;
+  background-color: gray;
   border-radius: 20px;
   color: #f7f6f1;
   width: fit-content;
@@ -417,26 +417,20 @@ h2 .show{
   background-size: cover;
 }
 .swiper-slide:nth-child(1) .notionItem .bg{
-  background-image: url(/img/study/1_bg.jpg);
+  background-image: url(../imgs/webdesign-cover-03.png);
   background-position: left center;
 }
 .swiper-slide:nth-child(2) .notionItem .bg{
-  background-image: url(/img/study/2_bg.jpg);
+  background-image: url(../imgs/zerocho_mockup.jpg);
 }
 .swiper-slide:nth-child(3) .notionItem .bg{
-  background-image: url(/img/study/3_bg.jpg);
+  background-image: url(../imgs/5bfc242a-b3ac-403f-860e-614097e220d3.jpeg);
 }
 .swiper-slide:nth-child(4) .notionItem .bg{
-  background-image: url(/img/study/4_bg.png);
+  background-image: url(../imgs/4ea213de-f786-4af1-a9d0-b8932263885a.jpeg);
 }
 .swiper-slide:nth-child(5) .notionItem .bg{
-  background-image: url(/img/study/5_bg.jpg);
-}
-.swiper-slide:nth-child(6) .notionItem .bg{
-  background-image: url(/img/study/6_bg.jpg);
-}
-.swiper-slide:nth-child(7) .notionItem .bg{
-  background-image: url(/img/study/7_bg.jpg);
+  background-image: url(../imgs/apple-clone-animation-2-min.gif);
 }
 
 
@@ -445,12 +439,25 @@ h2 .show{
 
 
 
+@media screen {
+  
+}
 
 
 
 
 
 
+@keyframes showAnime{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(100%);
+    opacity: 1;
+  }
+}
 
 
 @keyframes starAnime{

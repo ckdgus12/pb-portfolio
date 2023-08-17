@@ -88,3 +88,24 @@ window.onresize = () => {
 
   Snow.make();
 };
+
+// swiper
+var swiper = new Swiper(".mySwiper", {
+  // loop: true,
+  slidesPerView: 1.3,
+  spaceBetween: 20,
+  breakpoints: {
+    600:{
+      slidesPerView: 2.4,  //브라우저가 768보다 클 때
+      spaceBetween: 30,
+    },
+    1100: {
+        slidesPerView: 3.8,  //브라우저가 768보다 클 때
+        spaceBetween: 30,
+    },
+    1400: {
+        slidesPerView: 4.8,  //브라우저가 1200보다 클 때
+        spaceBetween: 50,
+    }
+  }
+});
