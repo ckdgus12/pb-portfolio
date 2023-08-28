@@ -1,0 +1,11 @@
+#Main {
+  display: flex;
+}
+#Main nav {
+  display: flex;
+}
+#Main .menu_item > ul > li {
+  color: white;
+  display: contents;
+  justify-content: center;
+}/*# sourceMappingURL=ch.css.map */
