@@ -14,6 +14,10 @@ a{
   text-decoration: none;
   color: #fff;
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: #2c1e1e;
   background-size: cover;
@@ -616,12 +620,10 @@ footer{
    .introduce .intro-section{
     flex-direction: column;
     align-items: center;
+    gap: 50px;
    }
-}
-
-@media (max-width: 870px){
-  .portfolio{
-    margin-top: 16rem;
+   .portfolio{
+    padding-top: 16rem;
   }
   .portfolio h2{
     text-align: center;
@@ -634,6 +636,62 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+  }
+  .portfolio-containr ul .por_1dep .text{
+    text-align: center;
+  }
+  .portfolio-containr ul .por_1dep.reverse .text_re{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .portfolio-containr ul .por_1dep .text li{
+    display: flex;
+    align-items: center;
+  }
+  .portfolio-containr ul .por_1dep .text .btn{
+    padding-left: 5px;
+  }
+  .portfolio-containr ul .por_1dep.reverse{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .por_1dep .text li a,
+  .por_1dep .text_re li a{
+    top: 0;
+  }
+  .portfolio h2 {
+    filter: invert(1);
+    position: sticky;
+    top: 11%;
+    font-size: 60px;
+    padding: 30px 0;
+    opacity: 0.7; 
+  
+    /* height: 50px; */
+    
+}
+}
+
+@media (max-width: 870px){
+  .portfolio{
+    padding-top: 16rem;
+  }
+  .portfolio h2{
+    text-align: center;
+  }
+  .portfolio-containr ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-containr ul .por_1dep{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
   }
   .portfolio-containr ul .por_1dep.reverse{
     flex-direction: column;
