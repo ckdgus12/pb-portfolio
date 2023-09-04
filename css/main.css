@@ -621,16 +621,24 @@ footer{
 
 @media (max-width: 870px){
   .portfolio{
-    margin-top: 160px;
+    margin-top: 16rem;
   }
   .portfolio h2{
     text-align: center;
   }
-  .portfolio-containr{
-    display: flex;
-  }
   .portfolio-containr ul{
+    display: flex;
     flex-direction: column;
+  }
+  .portfolio-containr ul .por_1dep{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio-containr ul .por_1dep.reverse{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
