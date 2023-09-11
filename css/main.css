@@ -668,6 +668,9 @@ footer{
   .portfolio h2{
     text-align: center;
   }
+  .port_imgs{
+    width: 100%;
+   }
   .portfolio-containr ul{
     display: flex;
     flex-direction: column;
@@ -711,12 +714,17 @@ footer{
     padding: 30px 0;
     opacity: 0.7; 
   
-    /* height: 50px; */
-    
+    /* height: 50px; */   
 }
+.text_re .title p{
+  padding: 0;
+ }
+ .text_re .title .Ruco_tit{
+  padding: 0;
+ }
 }
 
-@media (max-width: 870px){
+/*@media (max-width: 870px){
   .portfolio{
     padding-top: 16rem;
   }
@@ -738,9 +746,17 @@ footer{
     align-items: center;
     justify-content: center;
   }
-}
+}*/
 
 @media (max-width: 768){
+  .portfolio{
+    position: relative;
+    top: 200px;
+  }
+  .text .title li>p{
+    white-space: nowrap;
+  }
+  
   header{
     display: none;
   }
@@ -766,6 +782,57 @@ footer{
   .bottom.active{
     transform: translate(0,12px) rotate(45deg);
   }
+  
+}
+@media (max-width:640px){
+  .main-text{
+    margin-left: -60px;
+   }
+   .main-text h3,
+   .main-text p{
+    font-size: 24px;
+    line-height: 3rem;
+   }
+   .introduce .intro-main{
+    font-size: 3rem;
+   }
+   .introduce .intro-text{
+    align-items: center;
+   }
+   .intro-text .i-text:nth-child(1){
+     font-size: 20px;
+   }
+   .intro-text .i-text:nth-child(2){
+    text-align: center;
+    font-size: 12px;
+    width: 460px;
+   }
+   .portfolio{
+    position: relative;
+    top: 200px;
+   }
+   .port_imgs{
+    width: 100%;
+   }
+   .text .title p{
+    white-space: nowrap;
+   }
+   .text_re .title p{
+    padding: 0;
+   }
+   .text_re .title .Ruco_tit{
+    padding: 0;
+   }
+   .cursorFilter h3{
+    font-size: 3rem;
+   }
+   .study{
+    position: relative;
+    top: 100px;
+   }
+   .study h2{
+    font-size: 3rem;
+   }
 }
 
 @media (max-width:460px){
