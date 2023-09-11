@@ -68,6 +68,9 @@ header .navbar a{
   color: #fff;
 }
 
+.button{
+  
+}
 /*
 .navbar a:hover,
 .navbar a.active{
@@ -188,7 +191,8 @@ header .navbar a{
 }
 .intro-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 430px;
 }
 .intro-text{
   display: flex;
@@ -241,8 +245,9 @@ h2 .show{
 
 .portfolio .por_1dep{
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 250px;
+  justify-content: center;
+  gap:300px;
+  margin-bottom: 150px;
   transition: .8s;
 }
 .port_imgs{
@@ -336,6 +341,10 @@ h2 .show{
 }
 .text_re .title p{
   color: #fff;
+  padding-right: 53px;
+}
+.text_re .title .Ruco_tit{
+  padding-right: 110px;
 }
 
 
@@ -424,7 +433,7 @@ h2 .show{
   border-radius: 20px;
   box-shadow: 0px 7px 15px 0 #ffffff45;;
   transition: all 0.3s;
-  transform: translateY(100%);
+  /*transform: translateY(100%);*/
 }
 .study .swiper-slide:hover{
   transform: translateY(-5px);
@@ -613,6 +622,40 @@ footer{
 
 
 /*media*/
+@media (max-width:1550px){
+ section{
+  padding: 0 50px;
+ }
+ .intro-section{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  bottom: 50px;
+  gap: 0;
+ }
+ .intro-main{
+  text-align: center;
+ }
+ .intro-img{
+  padding: 100px;
+ }
+ .portfolio{
+  padding-top: 500px;
+ }
+ .port_img{
+  max-width: 100%;
+  height: 100%;
+ }
+}
+@media (max-width:1440px){
+  section{
+    margin: 0;
+  }
+}
+
+
 @media (max-width: 1000px){
    .introduce h2{
     text-align: center;
@@ -622,9 +665,6 @@ footer{
     align-items: center;
     gap: 50px;
    }
-   .portfolio{
-    padding-top: 16rem;
-  }
   .portfolio h2{
     text-align: center;
   }
@@ -700,3 +740,81 @@ footer{
   }
 }
 
+@media (max-width: 768){
+  header{
+    display: none;
+  }
+  .button{
+    display: inline-block;
+    cursor:pointer;
+    margin: 5rem;
+    cursor: pointer;
+  }
+  .top, .middle, .bottom{
+    width: 60px;
+    height: 5px;
+    margin:7px 0;
+    background-color: black;
+    transition: 0.5s;
+  }
+  .top.active{
+    transform: translate(0,12px) rotate(-45deg);
+  }
+  .middle.active{
+    opacity: 0;
+  }
+  .bottom.active{
+    transform: translate(0,12px) rotate(45deg);
+  }
+}
+
+@media (max-width:460px){
+ .main-text{
+  margin-left: -60px;
+ }
+ .main-text h3,
+ .main-text p{
+  font-size: 24px;
+  line-height: 3rem;
+ }
+ .introduce .intro-main{
+  font-size: 3rem;
+ }
+ .introduce .intro-text{
+  align-items: center;
+ }
+ .intro-text .i-text:nth-child(1){
+   font-size: 20px;
+ }
+ .intro-text .i-text:nth-child(2){
+  text-align: center;
+  font-size: 12px;
+  width: 460px;
+ }
+ .portfolio{
+  position: relative;
+  top: 200px;
+ }
+ .port_imgs{
+  width: 100%;
+ }
+ .text .title p{
+  white-space: nowrap;
+ }
+ .text_re .title p{
+  padding: 0;
+ }
+ .text_re .title .Ruco_tit{
+  padding: 0;
+ }
+ .cursorFilter h3{
+  font-size: 3rem;
+ }
+ .study{
+  position: relative;
+  top: 100px;
+ }
+ .study h2{
+  font-size: 3rem;
+ }
+}

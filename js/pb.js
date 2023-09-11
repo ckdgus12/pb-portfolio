@@ -1,4 +1,12 @@
+let button = document.querySelectorAll(".button")
 
+button.addEventListener(
+  "click", function(){
+    let children = button.children
+    for (i=0;i<children.length;i++){
+      children[i].classList.toggle("active")
+    }
+  })
 
 
 const backToTop = document.getElementById('backtotop');
