@@ -5,7 +5,7 @@ const menuIcon = document.querySelector("#menu_icon");
 menuIcon.addEventListener("click", (e) => {
   menuIcon.classList.toggle("bx-x");
   
-})
+})//
 
 
 const backToTop = document.getElementById('backtotop');
