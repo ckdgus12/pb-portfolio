@@ -705,6 +705,10 @@ footer{
     display: flex;
     align-items: center;
   }
+  .portfolio-containr ul .por_1dep .text  .str,
+  .portfolio-containr ul .por_1dep .text .p_font{
+    white-space: nowrap;
+  }
   .portfolio-containr ul .por_1dep .text .btn{
     padding-left: 5px;
   }
@@ -722,7 +726,7 @@ footer{
     filter: invert(1);
     position: sticky;
     top: 11%;
-    font-size: 60px;
+    font-size: 50px;
     padding: 30px 0;
     opacity: 0.7; 
   
@@ -801,7 +805,6 @@ footer{
    .intro-text .i-text:nth-child(2){
     text-align: center;
     font-size: 12px;
-    width: 460px;
    }
    .portfolio{
     position: relative;
@@ -837,22 +840,26 @@ footer{
  }
  .main-text h3,
  .main-text p{
-  font-size: 24px;
+  font-size: 1.1rem;
   line-height: 3rem;
  }
  .introduce .intro-main{
-  font-size: 3rem;
+  font-size: 2.3rem;
  }
  .introduce .intro-text{
   align-items: center;
  }
  .intro-text .i-text:nth-child(1){
    font-size: 20px;
+   line-height: normal;
+   text-align: center;
  }
  .intro-text .i-text:nth-child(2){
   text-align: center;
-  font-size: 12px;
-  width: 460px;
+  width: 22.5rem;
+ }
+ .intro-img img{
+  width: 18rem;
  }
  .portfolio{
   position: relative;
@@ -870,8 +877,17 @@ footer{
  .text_re .title .Ruco_tit{
   padding: 0;
  }
+.portfolio .text li:nth-child(2){
+  white-space: nowrap;
+  font-size: 16px;
+ }
+.portfolio .text_re li:nth-child(2){
+  white-space: nowrap;
+  font-size: 16px;
+}
+
  .cursorFilter h3{
-  font-size: 3rem;
+  font-size: 2.5rem;
  }
  .study{
   position: relative;
@@ -879,5 +895,6 @@ footer{
  }
  .study h2{
   font-size: 3rem;
+  white-space: nowrap;
  }
 }
