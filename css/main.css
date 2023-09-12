@@ -18,6 +18,9 @@ ul{
   margin: 0;
   padding: 0;
 }
+body{
+  position: relative;
+}
 html,body{
   max-width: 100%;
   overflow-x: hidden;
@@ -36,11 +39,8 @@ body{
 
 
 
-.container{
-  width: 100%;
-  margin: 0 auto;
-}
-.container section{
+
+section{
   width: 1440px;
   max-width: 100%;
   margin: 0 auto;
@@ -60,17 +60,17 @@ body{
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid #eee;
-  padding: 2rem 6rem;
+  padding: 2rem 5rem;
   z-index: 1000;
 }
-header .navbar {
-  padding-right: 50px;
-}
+
 header .navbar ul {
   display: flex;
   gap: 20px;
 }
 header .navbar a{
+  font-size: 1.3rem;
+  margin-left: 30px;
   text-decoration: none;
   color: #fff;
 }
@@ -764,12 +764,46 @@ footer{
   }
 }*/
 
-@media (max-width: 768){
+@media (max-width: 768px){
   #menu_icon{
     display: block;
+    position: relative;
+    left: 30px;
+  }
+  .logo{
+    font-size: 1.5rem;
   }
   .navbar{
+    position: fixed;
+    transform: translateY(35%);
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 4%;
     display: none;
+  }
+  .navbar.active {
+    display: block;
+  }
+  .navbar a {
+    display: block;
+    margin: 1.5rem 0;
+    color: #3f3b37;
+  }
+  .nav_bg {
+    position: fixed;
+    transform: translateY(17%);
+    left: 0;
+    width: 100%;
+    height: 295px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    display: none;
+  }
+  .nav_bg.active {
+    display: block;
+  }
+
   }
   .portfolio{
     position: relative;
@@ -783,7 +817,7 @@ footer{
     display: none;
   }
 
-}
+
 @media (max-width:640px){
   .main-text{
     margin-left: -60px;

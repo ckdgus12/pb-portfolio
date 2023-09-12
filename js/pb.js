@@ -1,11 +1,17 @@
 //내비게이션
 const menuIcon = document.querySelector("#menu_icon");
+const navBar = document.querySelector(".navbar");
+const navBg = document.querySelector(".nav_bg");
+const navLinks = document.querySelectorAll("header nav a");
 
 
 menuIcon.addEventListener("click", (e) => {
   menuIcon.classList.toggle("bx-x");
-  
-})//
+  navBar.classList.toggle("active");
+  navBg.classList.toggle("active");
+  });
+
+
 
 
 const backToTop = document.getElementById('backtotop');
