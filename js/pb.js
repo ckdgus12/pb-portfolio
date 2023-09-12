@@ -1,12 +1,11 @@
-let button = document.querySelectorAll(".button")
+//내비게이션
+const menuIcon = document.querySelector("#menu_icon");
 
-button.addEventListener(
-  "click", function(){
-    let children = button.children
-    for (i=0;i<children.length;i++){
-      children[i].classList.toggle("active")
-    }
-  })
+
+menuIcon.addEventListener("click", (e) => {
+  menuIcon.classList.toggle("bx-x");
+  
+})
 
 
 const backToTop = document.getElementById('backtotop');
