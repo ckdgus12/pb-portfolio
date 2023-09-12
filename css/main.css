@@ -648,6 +648,9 @@ footer{
   max-width: 100%;
   height: 100%;
  }
+ .port_imgs{
+  width: 100%;
+ }
 }
 @media (max-width:1440px){
   section{
