@@ -29,7 +29,6 @@ body{
   background-color: #2c1e1e;
   background-size: cover;
   overflow-x: hidden;
-  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
@@ -868,7 +867,14 @@ footer{
    }
 }
 
-@media (max-width:460px){
+@media (max-width:472px){
+  .logo{
+    font-size: 1rem;
+    padding: 0.5rem 0 0 0;
+  }
+ .main-navbar{
+  padding: 1rem 3rem;
+ }
  .main-text{
   margin-left: -60px;
  }
