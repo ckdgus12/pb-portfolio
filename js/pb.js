@@ -11,6 +11,9 @@ menuIcon.addEventListener("click", (e) => {
   navBg.classList.toggle("active");
   });
 
+//내비게이션 
+
+
 
 
 
