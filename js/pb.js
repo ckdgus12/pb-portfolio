@@ -23,6 +23,9 @@
       load.style.opactiy = "2";
     }, 3000);
  
+
+
+    
   });
 
 
@@ -34,6 +37,18 @@
 
 
 //내비게이션
+const menuIcon = document.querySelector("#menu_icon");
+const navBar = document.querySelector(".navbar");
+const navBg = document.querySelector(".nav_bg");
+
+
+//햄버거 버튼
+  menuIcon.addEventListener("click", (e) => {
+  menuIcon.classList.toggle("bx-x");
+  navBar.classList.toggle("active");
+  navBg.classList.toggle("active");
+  });
+
 for (let i = 0; i < navLinks.length; i++){
   let sectionOffsetTop = sections[i].offsetTop;
   let sectionOffsetHeight = sections[i].offsetHeight;
