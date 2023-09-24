@@ -237,11 +237,11 @@ header .navbar a:hover{
   font-size: 36px;
   display: none;
 }
-/*
+
 .navbar a:hover,
 .navbar a.active{
-  color: darkblue;
-}*/
+  color: #6969c3;;
+}
 
 
 /* mian-banner */
