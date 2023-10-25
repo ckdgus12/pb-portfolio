@@ -1,6 +1,7 @@
 (() => {
   const load = document.querySelector(".load");
   const html = document.querySelector("html");
+  const introP = document.querySelector('.main-text .anim');
   let scrollY = 0;
   let headerHeight = document.querySelector("header").offsetHeight;
   const screenHeight = screen.availHeight;
@@ -22,10 +23,17 @@
       load.style.opactiy = "2";
     }, 3500);
     window.addEventListener("load", () => {
-      load.classList.remove("load")
-      
+      load.classList.remove("load");
     });
   });
+  window.addEventListener("load", () =>{
+    setTimeout(() =>{
+      introP.classList.add("show");
+    }, 6000);
+  })
+
+  
+ 
 
   //내비게이션
   const menuIcon = document.querySelector("#menu_icon");
@@ -60,7 +68,7 @@
       scrollY = window.scrollY;
       if (
         scrollY >= sectionTop - headerHeight &&
-        scrollY < sectionTop + sectionOffsetHeight - headerHeight
+        scrollY < sectionTop + sectionOffsetHeight && headerHeight
       ) {
         navBar[i].classList.add("active");
       } else {
@@ -97,11 +105,67 @@
     });
   }
 
+  //intro text
+ 
+  function introPanim(){
+    introP.classList.add('show')
+  };
+
+
+
+
+  const $text = document.querySelector(".typing .text");
+
+  const letters = ["WEB \n PUBLISHER"];
+  const speed = 100;
+  let i = 0;
+
+  
+  const changeLineBreak = (letter) => {
+    return letter.map((text) => (text === "\n" ? "<br>" : text));
+  };
+  const typing = async () => {
+    const letter = changeLineBreak(letters[i].split(""));
+
+    while (letter.length) {
+      await wait(speed);
+      $text.innerHTML += letter.shift();
+    }
+
+
+    await wait(3000);
+
+
+    remove();
+  };
+
+
+  function wait(ms) {
+    return new Promise((res) => setTimeout(res, ms));
+  }
+
+ 
+  setTimeout(typing, 4000);
+
+  /*let content = "WEB \n PUBLISHER";
+   let typing = document.querySelector(".intro_text");
+   let i = 0;
+
+   function typingText(){
+    if(i < content.length)
+    {
+      let txt = content.charAt(i);
+      typing.innerHTML += txt = "\n" ? "" : txt;
+      i++
+    }
+   }
+   setInterval(typingText,100);*/
+
   //scroll event
   const $body = document.querySelector("body");
   const h2 = document.querySelectorAll("section h2");
   const portfolioList = document.querySelectorAll(".portfolio .por_1dep");
-  const porttext = document.querySelectorAll(".portfolio .por_1dep .text")
+  const porttext = document.querySelectorAll(".portfolio .por_1dep .text");
 
   window.addEventListener("scroll", () => {
     const scrollTop = document.documentElement.scrollTop;
@@ -112,7 +176,7 @@
       threshold: [1],
     };
 
-  /*const textpo = new IntersectionObserver((entries) =>{
+    /*const textpo = new IntersectionObserver((entries) =>{
     entries.forEach((entry) =>{
       if (entry.isIntersecting){
         entry.target.classList.add("text")
@@ -121,26 +185,28 @@
       }
     });
    })*/
+   
+   
 
 
     const io = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
-        }else{
+        } else {
           entry.target.classList.remove("show");
         }
       });
     }, options);
 
     const option_por = {
-      threshold: [.7]
+      threshold: [0.7],
     };
     const io_por = new IntersectionObserver((entries) => {
       entries.forEach((entry, idx) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
-        }else{
+        } else {
           entry.target.classList.remove("show");
         }
       });
@@ -149,7 +215,7 @@
     for (let i = 0; i < h2.length; i++) {
       io.observe(h2[i]);
     }
-    
+
     /*for (let i = 0; i< porttext.length; i++){
       textpo.observe(porttext[i]);
       if(i * 2 == 1){
