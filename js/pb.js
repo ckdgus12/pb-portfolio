@@ -51,8 +51,8 @@
   });
 
   for (let i = 0; i < navBar.length; i++) {
-    let sectionTop = sections[i].offsetTop;
-    let sectionOffsetHeight = sections[i].offsetHeight;
+    let sectionTop = sections[i].getBoundingClientRect();
+    let sectionOffsetHeight = sections[i].getBoundingClientRect();
 
     logoBtn.addEventListener("click", () => {
       window.scrollTo(0, 0);
