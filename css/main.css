@@ -459,10 +459,10 @@ header .navbar a:hover {
   box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0);
 }
 .portfolio .por_1dep:nth-child(1) .port_img {
-  background-image: url(../imgs/chllo.png);
+  background-image: url(../imgs/netflix.png);
 }
 .portfolio .por_1dep:nth-child(2) .port_img {
-  background-image: url(../imgs/netflix.png);
+  background-image: url(../imgs/chllo.png);
 }
 .portfolio .por_1dep:nth-child(3) .port_img {
   background-image: url(../imgs/hansol.png);
@@ -504,6 +504,7 @@ header .navbar a:hover {
   transition-delay: 0.3s;
   opacity: 0;
   width: 40%;
+  align-items: center;
 }
 .portfolio .text {
   display: flex;
@@ -516,6 +517,7 @@ header .navbar a:hover {
   font-weight: 600;
   line-height: 1;
   margin-bottom: 40px;
+  padding-left: 30px;
 }
 .portfolio .des {
   font-size: 17px;
@@ -525,6 +527,7 @@ header .navbar a:hover {
   color: #fff;
   gap: 10px;
   margin-bottom: 40px;
+  align-items: center;
 }
 .text .title p {
   color: #fff;
@@ -533,9 +536,7 @@ header .navbar a:hover {
   color: #fff;
   padding-right: 53px;
 }
-.text .title .Ruco_tit {
-  padding-right: 110px;
-}
+
 
 .por_1dep .text li a {
   position: relative;
@@ -912,6 +913,7 @@ h2.show {
   .portfolio-containr ul .por_1dep .text li {
     display: flex;
     align-items: center;
+    padding: 0;
   }
   .portfolio-containr ul .por_1dep .text .str,
   .portfolio-containr ul .por_1dep .text .p_font {
