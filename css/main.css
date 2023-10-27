@@ -539,7 +539,6 @@ header .navbar a:hover {
   padding-right: 53px;
 }
 
-
 .por_1dep .text li a {
   position: relative;
   display: flex;
@@ -705,11 +704,11 @@ header .navbar a:hover {
 .contact .blend {
   mix-blend-mode: unset;
 }
-.btnbox{
+.btnbox {
   position: relative;
 }
 
-.contact .btnHo{
+.contact .btnHo {
   font-size: 60px;
   font-weight: 500;
   color: #fff;
@@ -719,7 +718,7 @@ header .navbar a:hover {
   -webkit-text-stroke: 1px #fff;
 }
 .contact .btnHo::before,
-.contact .btnHo::after{
+.contact .btnHo::after {
   content: attr(data-text);
   -webkit-text-stroke: 1px #fff;
   position: absolute;
@@ -727,15 +726,15 @@ header .navbar a:hover {
   opacity: 0;
 }
 
-.contact .btnHo::after{
+.contact .btnHo::after {
   color: #edc5c5;
 }
 
-.btnHo:hover{
+.btnHo:hover {
   color: transparent;
 }
 
-.btnHo:hover::after{
+.btnHo:hover::after {
   opacity: 1;
   transform: translate(40px, -40px);
 }
@@ -788,9 +787,7 @@ footer {
   visibility: visible;
   background-color: rgb(47, 48, 49);
 }
-.btnHo{
-  
-}
+
 h2 {
   opacity: 0;
   transition: 1s;
@@ -1081,8 +1078,6 @@ header {
   .study h2 {
     font-size: 3rem;
   }
-  
-  
 }
 
 @media (max-width: 472px) {
@@ -1151,7 +1146,7 @@ header {
     font-size: 16px;
   }
 
-  .contact .btnHo{
+  .contact .btnHo {
     font-size: 40px;
   }
   .study {
@@ -1162,7 +1157,6 @@ header {
     font-size: 3rem;
     white-space: nowrap;
   }
-  
 }
 @media (max-width: 375px) {
   .main-text .typing .text {
@@ -1171,7 +1165,7 @@ header {
   .introduce .intro-main {
     font-size: 23px;
   }
-  .contact .btnHo{
+  .contact .btnHo {
     font-size: 35px;
   }
 }
