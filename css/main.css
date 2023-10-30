@@ -291,21 +291,8 @@ header .navbar a:hover {
   opacity: 1;
   transition: 1s;
 }
-.text::after {
-  content: "";
-  margin-left: 0.4rem;
-  border-right: 1px solid #777;
-  animation: cursor 0.9s infinite steps(2);
-}
 
-@keyframes cursor {
-  from {
-    border-right: 1px solid #fff;
-  }
-  to {
-    border-right: 1px solid #777;
-  }
-}
+
 
 /* Stars */
 .backStars .bastar {
@@ -442,9 +429,7 @@ header .navbar a:hover {
 .portfolio .por_1dep.reverse {
   flex-direction: row-reverse;
 }
-.portfolio .por_1dep.reverse a {
-  left: 50px;
-}
+
 .portfolio .por_1dep {
   display: flex;
   justify-content: center;
@@ -493,7 +478,7 @@ header .navbar a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   transition: 1.5s;
   transition-delay: 0.3s;
   width: 40%;
@@ -508,6 +493,7 @@ header .navbar a:hover {
   opacity: 0;
   width: 40%;
   align-items: center;
+  gap: 40px;
 }
 .portfolio .text {
   display: flex;
@@ -519,8 +505,8 @@ header .navbar a:hover {
   font-size: 35px;
   font-weight: 600;
   line-height: 1;
-  margin-bottom: 40px;
-  padding-left: 30px;
+  /*margin-bottom: 40px;*/
+  /*padding-left: 30px;*/
 }
 .portfolio .des {
   font-size: 17px;
@@ -534,10 +520,7 @@ header .navbar a:hover {
 .text .title p {
   color: #fff;
 }
-.text .title p {
-  color: #fff;
-  padding-right: 53px;
-}
+
 
 .por_1dep .text li a {
   position: relative;
@@ -548,9 +531,8 @@ header .navbar a:hover {
   height: 80px;
   background-color: #5b5b8e;
   border-radius: 15px;
-  margin-right: 15px;
   overflow: hidden;
-  top: 150px;
+  top: 120px;
 }
 
 .por_1dep .text {
@@ -916,10 +898,14 @@ h2.show {
     justify-content: center;
     gap: 50px;
   }
+  .por_1dep.reverse .text li a{
+    left: 50px;
+  }
   .por_1dep .text li a {
     top: 0;
     left: 0;
   }
+  
   .portfolio .por_1dep .Btn {
     padding-left: 25px;
   }
@@ -1004,7 +990,7 @@ h2.show {
     width: 100%;
     height: 295px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     z-index: 999;
     display: none;
   }
