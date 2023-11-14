@@ -292,8 +292,6 @@ header .navbar a:hover {
   transition: 1s;
 }
 
-
-
 /* Stars */
 .backStars .bastar,
 .backStars .bastar1,
@@ -366,19 +364,19 @@ header .navbar a:hover {
   left: 100px;
   animation-delay: 1.5s;
 }
-.backStars .bastar:nth-child(12){
+.backStars .bastar:nth-child(12) {
   top: 1020px;
   left: 110px;
   animation-delay: 1.5s;
 }
 
 /*intro star*/
-.intro-star{
+.intro-star {
   position: absolute;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 -135px 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 -135px 0;
 }
 .backStars .bastar1:nth-child(1) {
   left: 226px;
@@ -437,14 +435,14 @@ header .navbar a:hover {
   left: 100px;
   animation-delay: 1.5s;
 }
-.backStars .bastar1:nth-child(12){
+.backStars .bastar1:nth-child(12) {
   top: 1020px;
   left: 110px;
   animation-delay: 1.5s;
 }
 
 /*port star*/
-.port-star{
+.port-star {
   position: absolute;
   height: inherit;
   width: 100%;
@@ -508,197 +506,207 @@ header .navbar a:hover {
   left: 100px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(12){
+.backStars .bastar2:nth-child(12) {
   top: 1020px;
   left: 110px;
   animation-delay: 1.5s;
 }
 /*1500*/
-.backStars .bastar2:nth-child(13){
+.backStars .bastar2:nth-child(13) {
   top: 1500px;
   right: 94px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(14){
+}
+.backStars .bastar2:nth-child(14) {
   top: 1600px;
   right: 90px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(15){
+}
+.backStars .bastar2:nth-child(15) {
   top: 1728px;
   right: 200px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(16){
+}
+.backStars .bastar2:nth-child(16) {
   top: 1500px;
   left: 250px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(17){
+}
+.backStars .bastar2:nth-child(17) {
   top: 2032px;
   left: 23px;
   animation-delay: 1.5s;
 }
 
 /*2400*/
-.backStars .bastar2:nth-child(18){
+.backStars .bastar2:nth-child(18) {
   top: 2493px;
   right: 700px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(19){
+}
+.backStars .bastar2:nth-child(19) {
   top: 2620px;
   left: 150px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(20){
+}
+.backStars .bastar2:nth-child(20) {
   top: 2820px;
   left: 32.5px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(21){
+}
+.backStars .bastar2:nth-child(21) {
   top: 3012px;
   left: 500px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(22){
+}
+.backStars .bastar2:nth-child(22) {
   top: 3640px;
   right: 48px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(23){
+}
+.backStars .bastar2:nth-child(23) {
   top: 3982px;
   right: 70px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(24){
+}
+.backStars .bastar2:nth-child(24) {
   top: 3302px;
   right: 12.3px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(25){
+}
+.backStars .bastar2:nth-child(25) {
   top: 3530px;
   left: 110px;
   animation-delay: 1.5s;
-}.backStars .bastar2:nth-child(26){
+}
+.backStars .bastar2:nth-child(26) {
   top: 3739px;
   left: 110px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(27){
+.backStars .bastar2:nth-child(27) {
   top: 2386px;
   left: 230px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(28){
+.backStars .bastar2:nth-child(28) {
   top: 2386px;
   right: 123px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(29){
+.backStars .bastar2:nth-child(29) {
   top: 3302px;
   right: 350px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(30){
+.backStars .bastar2:nth-child(30) {
   top: 2981px;
   right: 63.2px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(31){
+.backStars .bastar2:nth-child(31) {
   top: 1311px;
   right: 83px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(32){
+.backStars .bastar2:nth-child(32) {
   top: 1211px;
   right: 21px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(33){
+.backStars .bastar2:nth-child(33) {
   top: 1208px;
   right: 33px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(34){
+.backStars .bastar2:nth-child(34) {
   top: 1199px;
   left: 83px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(35){
+.backStars .bastar2:nth-child(35) {
   top: 1211px;
   left: 13px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(36){
+.backStars .bastar2:nth-child(36) {
   top: 1092px;
   left: 530px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(37){
+.backStars .bastar2:nth-child(37) {
   top: 1298px;
   left: 540px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(38){
+.backStars .bastar2:nth-child(38) {
   top: 1492px;
   right: 3px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(39){
+.backStars .bastar2:nth-child(39) {
   top: 4032px;
   right: 263.2px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(40){
+.backStars .bastar2:nth-child(40) {
   top: 3990px;
   right: 23.6px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(41){
+.backStars .bastar2:nth-child(41) {
   top: 3880px;
   left: 600px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(42){
+.backStars .bastar2:nth-child(42) {
   top: 2990px;
   right: 703px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(43){
+.backStars .bastar2:nth-child(43) {
   top: 2660px;
   right: 602px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(44){
+.backStars .bastar2:nth-child(44) {
   top: 2510px;
   left: 920px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(45){
+.backStars .bastar2:nth-child(45) {
   top: 3960px;
   right: 192px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(46){
+.backStars .bastar2:nth-child(46) {
   top: 3332px;
   right: 472px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(47){
+.backStars .bastar2:nth-child(47) {
   top: 3110px;
   left: 183px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(48){
+.backStars .bastar2:nth-child(48) {
   top: 4370px;
   left: 83px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(49){
+.backStars .bastar2:nth-child(49) {
   top: 4283px;
   left: 260px;
   animation-delay: 1.5s;
 }
-.backStars .bastar2:nth-child(50){
+.backStars .bastar2:nth-child(50) {
   top: 4300px;
   left: 530px;
   animation-delay: 1.5s;
 }
 
-
-
 /*study star*/
-.study_star{
+.study_star {
   position: absolute;
   height: inherit;
   width: 100%;
@@ -727,7 +735,7 @@ header .navbar a:hover {
   animation-duration: 1.5s;
 }
 .backStars .bastar3:nth-child(5) {
-  left:630px;
+  left: 630px;
   top: 600px;
   animation-delay: 0.5s;
   animation-duration: 1.5s;
@@ -758,9 +766,8 @@ header .navbar a:hover {
   animation-delay: 1.5s;
 }
 
-
 /*cont_star*/
-.conta_star{
+.conta_star {
   position: absolute;
   width: 100%;
   height: 40rem;
@@ -789,7 +796,7 @@ header .navbar a:hover {
   animation-duration: 1.5s;
 }
 .backStars .bastar4:nth-child(5) {
-  left:630px;
+  left: 630px;
   top: 600px;
   animation-delay: 0.5s;
   animation-duration: 1.5s;
@@ -819,8 +826,6 @@ header .navbar a:hover {
   left: 823px;
   animation-delay: 1.5s;
 }
-
-
 
 /* introduce */
 
@@ -979,7 +984,6 @@ header .navbar a:hover {
 .text .title p {
   color: #fff;
 }
-
 
 .por_1dep .text li a {
   position: relative;
@@ -1358,14 +1362,14 @@ h2.show {
     justify-content: center;
     gap: 50px;
   }
-  .por_1dep.reverse .text li a{
+  .por_1dep.reverse .text li a {
     left: 50px;
   }
   .por_1dep .text li a {
     top: 0;
     left: 0;
   }
-  
+
   .portfolio .por_1dep .Btn {
     padding-left: 25px;
   }
