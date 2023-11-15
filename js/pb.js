@@ -21,7 +21,7 @@
       load.classList.add("hide");
       html.style.overflow = "auto";
       load.style.opactiy = "2";
-    }, 3500);
+    }, 6000);
     window.addEventListener("load", () => {
       load.classList.remove("load");
     });
@@ -29,7 +29,7 @@
   window.addEventListener("load", () =>{
     setTimeout(() =>{
       introP.classList.add("show");
-    }, 6000);
+    }, 7100);
   })
 
   
@@ -145,7 +145,7 @@
   }
 
  
-  setTimeout(typing, 4000);
+  setTimeout(typing, 5500);
 
   /*let content = "WEB \n PUBLISHER";
    let typing = document.querySelector(".intro_text");
