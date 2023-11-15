@@ -925,9 +925,10 @@ header .navbar a:hover {
 }
 
 .intro-img img {
-  background-image: url(../imgs/KakaoTalk_Photo_2023-07-27-16-35-18.jpeg);
+  background-image: url(../imgs/intro.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 395px;
   width: 400px;
   border-radius: 30px;
 }
