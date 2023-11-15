@@ -1347,6 +1347,9 @@ h2.show {
   .intro-img {
     padding: 100px;
   }
+  .intro-section .i-text:nth-child(1){
+    text-align: center;
+  }
   .portfolio {
     margin-top: 300px;
   }
