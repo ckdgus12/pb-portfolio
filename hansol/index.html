@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./hansol.css">
   <link rel="stylesheet" href="./reset.css">
   <title>한솔데코</title>
@@ -13,15 +14,51 @@
   <header>
     <h1><a href="#none">한솔홈데코</a></h1>
     <h2 class="hide">대메뉴</h2>
-    <nav class="lnb">
-      <ul>
-        <li><a href="#none"><span>제품정보</span></a></li>
-        <li><a href="#none"><span>시공사례</span></a></li>
-        <li><a href="#none"><span>고객센터</span></a></li>
-        <li><a href="#none"><span>기업소개</span></a></li>
-        <li><a href="#none"><span>사업분야</span></a></li>
+    <nav>
+      <ul class="nav_main">
+        <li class="list"><a href="">제품정보</a>
+        <ul class="nav_list">
+          <li>바닥재</li>
+          <li>벽면재</li>
+          <li>시트재</li>
+          <li>가구재</li>
+          <li>셀프인테리어</li>
+        </ul>
+        </li>
+        <li class="list"><a href="">시공사례</a>
+        <ul class="nav_list">
+          <li>테마 갤러리</li>
+          <li>시공 갤러리</li>
+          <li>전시장 갤러리</li>
+        </ul>
+        </li>
+        <li class="list"><a href="">고객센터</a>
+        <ul class="nav_list">
+          <li>고객상담</li>
+          <li>매장 찾기</li>
+          <li>FAQ</li>
+          <li>공지</li>
+          <li>뉴스</li>
+          <li>자료실</li>
+        </ul>
+        </li>
+        <li class="list"><a href="">기업소개</a>
+        <ul class="nav_list">
+          <li>회사개요</li>
+          <li>투자정보</li>
+          <li>인사제도</li>
+          <li>채용공고</li>
+          <li>네트워크</li>
+          <li>통합브랜드</li>
+        </ul>
+        </li>
       </ul>
+      <div class="nav_back">
+        <div class="nav_bg"></div>
+      </div>
     </nav>
+  
+
     <h2 class="hide">관련서비스</h2>
     <nav class="spot">
       <ul>
@@ -32,33 +69,18 @@
     </nav>
   </header>
   <section class="visual slide">
-        <h2 class="hide">광고영역</h2>
-        <a href="#none" class="prev">이전</a>
-        <a href="#none" class="next">다음</a>
-        <div class="control">
-          <div>
-            <div>
-              <a href="#none" class="play on">시작</a>
-              <a href="#none" class="pause">일시정지</a>
-            </div>
-            <ul>
-              <li class="on"><a href="#none">한솔홈데코 비전</a></li>
-              <li><a href="#none">XXX 신상품</a></li>
-              <li><a href="#none">설명텍스트1</a></li>
-              <li><a href="#none">설명텍스트2</a></li>
-              <li><a href="#none">설명텍스트3</a></li>
-            </ul>
-        </div>
-       </div> 
-        <div class="con">
-          <div class="slide">
-            <div class="txt">
-              lasola<br>
-              COLLECT WALL
-              <p>패턴 로이 실버 Roy Sliver</p>
-            </div>  
-          </div>
-        </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./hanimg/thumbview(1117).jpeg" alt=""></div>
+        <div class="swiper-slide"><img src="./hanimg/thumbview (11117).jpeg" alt=""></div>
+        <div class="swiper-slide"><img src="./hanimg/thumbview (1).jpeg" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="visual_text">
+      <p>최고의 인테리어를<br>확인 해보세요!</p>
+    </div>
   </section>
   <section class="product">
     <h2 class="hide">제품정보</h2>
@@ -99,56 +121,7 @@
      </div>
    </div> 
    <div class="slide_box">
-      <div>
-          <div class="left">
-           <!-- <div>
-                <h3>SB Flooring<span>[오리지널,헤링본,강,엠보</span></h3>
-                <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한
-                  친환경 차세대 온돌마루입니다.</p>
-                <a href="#none">자세히보기</a>
-              </div>  -->
-              <img src="./hanimg/bg_main0802.jpg" alt="">  
-          </div>
-          <ul class="right">
-            <li>
-              <a href="#none">
-                <div>
-                <img src="./hanimg/thumbview (11).jpeg" alt="">
-                <strong>바닥재>강화마루>소폭</strong>
-                리얼우드[7704]
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                  <div>
-                    <img src="./hanimg/thumbview (12).jpeg" alt="">
-                    <strong>바닥재>강화마루>소폭</strong>
-                    리얼우드[7704]
-                  </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div> 
-                    <img src="./hanimg/thumbview (13).jpeg" alt="">
-                    <strong>바닥재>강화마루>소폭</strong>
-                    리얼우드[7704]
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <div>  
-                  <img src="./hanimg/thumbview (14).jpeg" alt="">
-                  <strong>바닥재>강화마루>소폭</strong>
-                  리얼우드[7704]
-                </div>  
-              </a>
-            </li>
-          </ul>
-      </div>
-      <div>
+    <div>
         <div class="left">
          <!-- <div>
               <h3>SB Flooring<span>[오리지널,헤링본,강,엠보</span></h3>
@@ -394,53 +367,53 @@
 </ul>
 </div>
 <div>
-  <div class="left">
-   <!-- <div>
-        <h3>SB Flooring<span>[오리지널,헤링본,강,엠보</span></h3>
-        <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한
-          친환경 차세대 온돌마루입니다.</p>
-        <a href="#none">자세히보기</a>
-      </div>  -->
-      <img src="./hanimg/bg_main0802.jpg" alt="">  
-  </div>
-  <ul class="right">
-    <li>
-      <a href="#none">
-        <div>
-        <img src="./hanimg/thumbview (11).jpeg" alt="">
+<div class="left">
+<!-- <div>
+    <h3>SB Flooring<span>[오리지널,헤링본,강,엠보</span></h3>
+    <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한
+      친환경 차세대 온돌마루입니다.</p>
+    <a href="#none">자세히보기</a>
+  </div>  -->
+  <img src="./hanimg/bg_main0802.jpg" alt="">  
+</div>
+<ul class="right">
+<li>
+  <a href="#none">
+    <div>
+    <img src="./hanimg/thumbview (11).jpeg" alt="">
+    <strong>바닥재>강화마루>소폭</strong>
+    리얼우드[7704]
+    </div>
+  </a>
+</li>
+<li>
+  <a href="#none">
+      <div>
+        <img src="./hanimg/thumbview (12).jpeg" alt="">
         <strong>바닥재>강화마루>소폭</strong>
         리얼우드[7704]
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#none">
-          <div>
-            <img src="./hanimg/thumbview (12).jpeg" alt="">
-            <strong>바닥재>강화마루>소폭</strong>
-            리얼우드[7704]
-          </div>
-      </a>
-    </li>
-    <li>
-      <a href="#none">
-        <div> 
-            <img src="./hanimg/thumbview (13).jpeg" alt="">
-            <strong>바닥재>강화마루>소폭</strong>
-            리얼우드[7704]
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#none">
-        <div>  
-          <img src="./hanimg/thumbview (14).jpeg" alt="">
-          <strong>바닥재>강화마루>소폭</strong>
-          리얼우드[7704]
-        </div>  
-      </a>
-    </li>
-  </ul>
+      </div>
+  </a>
+</li>
+<li>
+  <a href="#none">
+    <div> 
+        <img src="./hanimg/thumbview (13).jpeg" alt="">
+        <strong>바닥재>강화마루>소폭</strong>
+        리얼우드[7704]
+    </div>
+  </a>
+</li>
+<li>
+  <a href="#none">
+    <div>  
+      <img src="./hanimg/thumbview (14).jpeg" alt="">
+      <strong>바닥재>강화마루>소폭</strong>
+      리얼우드[7704]
+    </div>  
+  </a>
+</li>
+</ul>
 </div>
 <div>
 <div class="left">
@@ -537,65 +510,115 @@
       리얼우드[7704]
     </div>  
   </a>
- </li>
+</li>
 </ul>
 </div>
+<div>
+<div class="left">
+<!-- <div>
+  <h3>SB Flooring<span>[오리지널,헤링본,강,엠보</span></h3>
+  <p>SB마루는 한국 주거문화에 최적화되어 습기에 강하고, 열효율이 우수한
+    친환경 차세대 온돌마루입니다.</p>
+  <a href="#none">자세히보기</a>
+</div>  -->
+<img src="./hanimg/bg_main0802.jpg" alt="">  
+</div>
+<ul class="right">
+<li>
+<a href="#none">
+  <div>
+  <img src="./hanimg/thumbview (11).jpeg" alt="">
+  <strong>바닥재>강화마루>소폭</strong>
+  리얼우드[7704]
   </div>
-  </section>
-  <section class="wrap_product">
-   <div class="layout">
-    <h2 class="h2_tit">인기제품</h2>
-    <p class="stit">지금,NEW&Best제품을 소개합니다.</p>
-    <ul class="product_to">
-      <li>
-        <a href="#none">
-          <img src="./hanimg/product05.jpg" alt="">
-          <p>라솔라 콜렉트월</p>
-          <p>
-            <span>#고감도프리미엄벽면재</span>
-            <span>#지구의감각모티브</span>
-            <span>#친환경</span>
-            <span>#방염성능</span>
-          </p>
-        </a>
-      </li>
-      <li>
-        <a href="#none">
-          <img src="./hanimg/product01.jpg" alt="">
-          <p>스토리보드</p>
-          <p>
-            <span>#가구도어</span>
-            <span>#표면가공보드</span>
-            <span>#PET보드</span>
-          </p>
-        </a>
-      </li>
-      <li><a href="#none">
-        <img src="./hanimg/product02.jpg" alt="">
-        <p>sb마루</p>
+</a>
+</li>
+<li>
+<a href="#none">
+    <div>
+      <img src="./hanimg/thumbview (12).jpeg" alt="">
+      <strong>바닥재>강화마루>소폭</strong>
+      리얼우드[7704]
+    </div>
+</a>
+</li>
+<li>
+<a href="#none">
+  <div> 
+      <img src="./hanimg/thumbview (13).jpeg" alt="">
+      <strong>바닥재>강화마루>소폭</strong>
+      리얼우드[7704]
+  </div>
+</a>
+</li>
+<li>
+<a href="#none">
+  <div>  
+    <img src="./hanimg/thumbview (14).jpeg" alt="">
+    <strong>바닥재>강화마루>소폭</strong>
+    리얼우드[7704]
+  </div>  
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="wrap_product">
+ <div class="layout">
+  <h2 class="h2_tit">인기제품</h2>
+  <p class="stit">지금,NEW&Best제품을 소개합니다.</p>
+  <ul class="product_to">
+    <li>
+      <a href="#none">
+        <img src="./hanimg/product05.jpg" alt="">
+        <p>라솔라 콜렉트월</p>
         <p>
-          <span>#대리석</span>
-          <span>#리얼텍스처</span>
-          <span>#찍힘에강함</span>
+          <span>#고감도프리미엄벽면재</span>
+          <span>#지구의감각모티브</span>
+          <span>#친환경</span>
+          <span>#방염성능</span>
         </p>
       </a>
-     </li>
-      <li>
-        <a href="#none">
-          <img src="./hanimg/product04.jpg" alt="">
-          <p>도어</p>
-          <p>
-            <span>#ABS 도어</span>
-            <span>#히든도어</span>
-            <span>#중문</span>
-          </p>
-        </a>
-      </li>
-    </ul>
+    </li>
+    <li>
+      <a href="#none">
+        <img src="./hanimg/product01.jpg" alt="">
+        <p>스토리보드</p>
+        <p>
+          <span>#가구도어</span>
+          <span>#표면가공보드</span>
+          <span>#PET보드</span>
+        </p>
+      </a>
+    </li>
+    <li><a href="#none">
+      <img src="./hanimg/product02.jpg" alt="">
+      <p>sb마루</p>
+      <p>
+        <span>#대리석</span>
+        <span>#리얼텍스처</span>
+        <span>#찍힘에강함</span>
+      </p>
+    </a>
+   </li>
+    <li>
+      <a href="#none">
+        <img src="./hanimg/product04.jpg" alt="">
+        <p>도어</p>
+        <p>
+          <span>#ABS 도어</span>
+          <span>#히든도어</span>
+          <span>#중문</span>
+        </p>
+      </a>
+    </li>
+  </ul>
 
-   </div>
-
+ </div>
+   
   </section>
+
   <section class="notice">
     <div class="clear">
         <div class="top clear">
@@ -676,5 +699,9 @@
          </p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="hansol.js"></script>
+   <!-- Swiper JS -->
+   
 </body>
 </html>
